@@ -3,13 +3,21 @@ package org.example;
 public class SplitString {
 
     public static String[] solution(String s) {
+        int arrLength = 0;
 
-        //Write your code here
-        char s = s.toCharArray();
-        String[] arr = new String[4];
+        if(s.length() % 2 == 1){
+            arrLength = s.length() + 1;
+        } else {
+            arrLength = s.length();
+        }
 
+        char[] theSingleLetter = s.toCharArray();
+        String[] arr = new String[arrLength];
 
-        int var = arr.length();
+        for(char c : theSingleLetter){
+            arr = arr[] + c;
+        }
+
     return arr;
     }
 }
