@@ -1,0 +1,62 @@
+Index: src/main/java/org/example/GiveMeADiamond.java
+===================================================================
+diff --git a/src/main/java/org/example/GiveMeADiamond.java b/src/main/java/org/example/GiveMeADiamond.java
+--- a/src/main/java/org/example/GiveMeADiamond.java	
++++ b/src/main/java/org/example/GiveMeADiamond.java	
+@@ -39,9 +39,8 @@
+     }
+ 
+     public static void main(String[] args) {
+-        int input =5;
++        int input =19;
+         print(input);
+         System.out.println(print(input));
+     }
+-
+-}
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1c2e6ec0-2afa-4288-955a-c66eacfd2e2e" name="Changes" comment="Init: First Task GiveMeADiamond">
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
++    <list default="true" id="1c2e6ec0-2afa-4288-955a-c66eacfd2e2e" name="Changes" comment="gitignore suppa!">
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GiveMeADiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GiveMeADiamond.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,17 +36,17 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
