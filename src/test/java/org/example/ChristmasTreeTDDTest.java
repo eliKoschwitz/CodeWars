@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class ChristmasTreeTDDTest {
 
     @Test
-    void heightIs0AnswerHasToBe0(){
+    void heightIs0AnswerHasToBe0() {
         // GIVEN
         int height = 0;
 
@@ -20,7 +20,7 @@ class ChristmasTreeTDDTest {
 
 
     @Test
-    void heightIs1AnswerHasToBe1(){
+    void heightIs1AnswerHasToBe1() {
         // GIVEN
         int height = 1;
 
@@ -32,7 +32,7 @@ class ChristmasTreeTDDTest {
     }
 
     @Test
-    void heightIs2AnswerHasToBe2(){
+    void heightIs2AnswerHasToBe2() {
         // GIVEN
         int height = 2;
 
@@ -44,7 +44,7 @@ class ChristmasTreeTDDTest {
     }
 
     @Test
-    void heightIs3AnswerHasToBe3(){
+    void heightIs3AnswerHasToBe3() {
         // GIVEN
         int height = 3;
 
@@ -56,7 +56,7 @@ class ChristmasTreeTDDTest {
     }
 
     @Test
-    void heightIs4AnswerHasToBe4(){
+    void heightIs4AnswerHasToBe4() {
         // GIVEN
         int height = 4;
 
@@ -68,7 +68,7 @@ class ChristmasTreeTDDTest {
     }
 
     @Test
-    void heightIs5AnswerHasToBe5(){
+    void heightIs5AnswerHasToBe5() {
         // GIVEN
         int height = 5;
 
@@ -80,7 +80,7 @@ class ChristmasTreeTDDTest {
     }
 
     @Test
-    void heightIs6AnswerHasToBe6(){
+    void heightIs6AnswerHasToBe6() {
         // GIVEN
         int height = 6;
 
