@@ -78,4 +78,16 @@ class ChristmasTreeTDDTest {
         //THEN
         Assertions.assertEquals("    X\n   XXX\n  XXXXX\n XXXXXXX\nXXXXXXXXX\n    |", actual);
     }
+
+    @Test
+    void heightIs6AnswerHasToBe6(){
+        // GIVEN
+        int height = 6;
+
+        //WHEN
+        String actual = ChristmasTreeTDD.heightOfTheTree(height);
+
+        //THEN
+        Assertions.assertEquals("     X\n    XXX\n   XXXXX\n  XXXXXXX\n XXXXXXXXX\nXXXXXXXXXXX\n     |", actual);
+    }
 }
