@@ -12,7 +12,7 @@ class SplitStringTest {
         //WHEN
         String[] actual = SplitString.solution(s);
         //THEN
-        Assertions.assertEquals(['ab', 'c_'], actual);
+        Assertions.assertEquals(["ab","c_"], actual);
 
     }
 }
